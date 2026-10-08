@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    background: url(Images/risen-wang-20jX9b35r_M-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    text-align: center;
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: absolute;
+    top: 38%;
+    left: 36%;
+}
+h1 {
+    color: #ffffff;
+}
+.button-container {
+    margin-top: 20px;
+}
+.button-container a {
+    background-color: #4c4eaf; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+.button-container a:hover {
+    background-color: #7e0707; /* Darker green on hover */
+}
